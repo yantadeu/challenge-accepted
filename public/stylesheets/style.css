@@ -1,0 +1,40 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: inherit;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 50%;
+  width: 100%;
+  padding: 7px 14px;
+}
+
+.nav-top{
+  background-color: #0181CC;
+}
+
+.form-climatempo{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.blue{
+  color: deepskyblue;
+}
+
+.red{
+  color: lightcoral;
+}
+
+.bottom{
+  margin-bottom: 15px !important;
+}
