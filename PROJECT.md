@@ -1,6 +1,9 @@
-# AMBIENTE
+# TECNOLOGIAS
 
 - NodeJS
+- Bootstrap
+- CSS3
+- HTML5
 
 # INSTALAÇÃO
 
