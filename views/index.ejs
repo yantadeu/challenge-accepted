@@ -31,7 +31,7 @@
             <form class="form-horizontal form-climatempo" method="get" action="/">
                 <div class="input-group mb-12">
                     <input type="text" name="search" id="locales" class="form-control" placeholder="Pesquisar"
-                           aria-label="Pesquisar" aria-describedby="basic-addon2">
+                           aria-label="Pesquisar" aria-describedby="basic-addon2" value="<%= search %>">
                     <div class="input-group-append">
                         <button class="btn btn-outline-secondary" type="submit"><i class="fa fa-search"></i></button>
                     </div>
@@ -46,8 +46,8 @@
     </div>
     <div class="row">
         <% weathers.forEach(function(weather) { %>
-        <div class="col-sm-12 col-md-4">
-            <div class="card bottom">
+        <div class="col-sm-12 col-md-4 bottom">
+            <div class="card">
                 <div class="card-header text-center">
                     <%= weather.date %>
                 </div>
@@ -79,7 +79,7 @@
 
 <input type="hidden" id="locals" value="<%= locales %>"/>
 
-<footer class="page-footer font-small blue pt-12">
+<footer class="footer">
     <div class="footer-copyright text-center py-3">© 2019 Copyright:
         <a href="http://www.devgo.com.br" target="_blank"> Yan Tadeu</a>
     </div>

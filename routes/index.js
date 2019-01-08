@@ -22,7 +22,7 @@ router.get('/', function (req, res, next) {
         }
 
     }
-    res.render('index', {title: 'Climatempo', locales: JSON.stringify(locals), weathers: weathers, description: description});
+    res.render('index', {title: 'Climatempo', locales: JSON.stringify(locals), weathers: weathers, description: description, search: search});
 });
 
 let getWeatherByLocale = function (locale) {
